@@ -13,7 +13,7 @@ export function SecondSlide() {
         matches ?
           <>
             <ImgBox>
-              <img src="https://pbs.twimg.com/media/Ep8NbBkW8AIN57d?format=jpg&name=large" />
+              <img src="images/PoderosoChef_esticada.png" />
             </ImgBox>
             <TextBox>
               <h1>Second Slide</h1>
@@ -25,7 +25,7 @@ export function SecondSlide() {
               <h1>Second Slide</h1>
             </TextBox>
             <ImgBox>
-              <img src="https://pbs.twimg.com/media/Ep8NbBkW8AIN57d?format=jpg&name=large" />
+              <img src="images/PoderosoChef_quad.png" />
             </ImgBox>
           </>
       }

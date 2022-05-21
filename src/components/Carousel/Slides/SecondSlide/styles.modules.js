@@ -30,7 +30,7 @@ export const TextBox = styled(Box)`
     width: 50%;
     height: 580px;
     color: #FFF;
-    background-color: blue;
+    background-color: #FF0033;
   }	
 `;
 
@@ -54,6 +54,8 @@ export const ImgBox = styled(Box)`
     @media (max-width: 1220px) {
       //MOBILE
       width: 100%;
+      height: 440px;
+      object-fit: cover;
     }
     width: 810px;
     z-index: -1;

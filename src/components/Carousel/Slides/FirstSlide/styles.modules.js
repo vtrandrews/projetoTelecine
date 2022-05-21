@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Box } from '@material-ui/core';
+import { Box, Typography } from '@material-ui/core';
 
 export const Container = styled(Box)`
   &.MuiBox-root{
@@ -31,8 +31,80 @@ export const TextBox = styled(Box)`
     width: 50%;
     height: 580px;
     color: #FFF;
-    background-color: pink;
+    background-color: #010060;
   }	
+`;
+
+export const TextArea = styled(Box)`
+  &.MuiBox-root{
+    @media (max-width: 1220px) {
+      //MOBILE
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 400px;
+    }
+    display: inline-block;
+    align-items: center;
+    text-align: left;
+    width: 500px;
+    height: 500px;
+    color: #FFF;
+    padding: 30px 0px 0px 60px;
+  }	
+
+  .texto-fino{
+    &.MuiTypography-root{
+      @media (max-width: 1220px) {
+        //MOBILE
+        font-size: 36px;
+      }
+      font-size: 54px;
+      font-weight: 300;
+      color: #ffff66;
+      font-family: 'Oswald', sans-serif;
+    }
+  }
+
+  .subtexto{
+    &.MuiTypography-root{
+      @media (max-width: 1220px) {
+        //MOBILE
+        font-size: 18px;
+      }
+      font-size: 32px;
+      font-weight: 500;
+      color: #fff;
+      font-family: 'Oswald', sans-serif;
+    }
+  }
+
+  .subtexto-fino{
+    &.MuiTypography-root{
+      @media (max-width: 1220px) {
+        //MOBILE
+      }
+      margin-top: 20px;
+      font-size: 32px;
+      font-weight: 300;
+      color: #fff;
+      font-family: 'Oswald', sans-serif;
+    }
+  }
+`;
+
+export const TypographySyled = styled(Typography)`
+  &.MuiTypography-root{
+    @media (max-width: 1220px) {
+      //MOBILE
+    }
+    font-size: 54px;
+    font-weight: 600;
+    color: #ffff66;
+    font-family: 'Oswald', sans-serif;
+  }
 `;
 
 export const ImgBox = styled(Box)`
@@ -55,6 +127,8 @@ export const ImgBox = styled(Box)`
     @media (max-width: 1220px) {
       //MOBILE
       width: 100%;
+      height: 440px;
+      object-fit: cover;
     }
     width: 810px;
     z-index: -1;

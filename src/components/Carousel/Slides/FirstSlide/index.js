@@ -1,7 +1,8 @@
 import { useMediaQuery } from '@material-ui/core';
 import React from 'react';
 import {
-  Container, TextBox, ImgBox
+  Container, TextBox, ImgBox, TextArea,
+  TypographySyled
 } from './styles.modules';
 
 export function FirstSlide() {
@@ -13,19 +14,45 @@ export function FirstSlide() {
         matches ?
           <>
             <ImgBox>
-              <img src="https://pop.proddigital.com.br/wp-content/uploads/sites/8/2022/04/cartaz-de-doctor-strange-in-the-multiverse-of-madness.png" />
+              <img src="images/Toretto_esticada.png" />
             </ImgBox>
             <TextBox>
-              <h1>First Slide</h1>
+              <TextArea>
+                <TypographySyled className='texto-fino'>
+                  MENOS TEMPO PROCURANDO, VOCÊ JÁ ACHOU BEM AQUI
+                </TypographySyled>
+                <TypographySyled className='texto-fino'>
+                  Perfil escolhido por um time de especialistas em recrutamento
+                </TypographySyled>
+              </TextArea>
             </TextBox>
           </>
           :
           <>
             <TextBox>
-              <h1>First Slide</h1>
+              <TextArea>
+                <TypographySyled className='texto-fino'>
+                  MENOS TEMPO
+                </TypographySyled>
+                <TypographySyled>
+                  PROCURANDO,
+                </TypographySyled>
+                <TypographySyled className='texto-fino'>
+                  VOCÊ JÁ ACHOU
+                </TypographySyled>
+                <TypographySyled>
+                  BEM AQUI
+                </TypographySyled>
+                <TypographySyled className='subtexto-fino'>
+                  Perfil escolhido por um time de
+                </TypographySyled>
+                <TypographySyled className='subtexto'>
+                  especialistas em recrutamento
+                </TypographySyled>
+              </TextArea>
             </TextBox>
             <ImgBox>
-              <img src="https://pop.proddigital.com.br/wp-content/uploads/sites/8/2022/04/cartaz-de-doctor-strange-in-the-multiverse-of-madness.png" />
+              <img src="images/Toretto_quad.png" />
             </ImgBox>
           </>
       }

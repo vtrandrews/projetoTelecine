@@ -13,7 +13,7 @@ export function ThirdSlide() {
         matches ?
           <>
             <ImgBox>
-              <img src="https://jovemnerd.com.br/wp-content/uploads/2022/02/Occhiali-neri-cartaz.png" />
+              <img src="images/007_esticada.png" />
             </ImgBox>
             <TextBox>
               <h1>Third Slide</h1>
@@ -25,7 +25,7 @@ export function ThirdSlide() {
               <h1>Third Slide</h1>
             </TextBox>
             <ImgBox>
-              <img src="https://jovemnerd.com.br/wp-content/uploads/2022/02/Occhiali-neri-cartaz.png" />
+              <img src="images/007_quad.png" />
             </ImgBox>
           </>
       }
