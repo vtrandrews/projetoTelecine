@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { Box, Button } from '@material-ui/core';
-import MenuIcon from '@material-ui/icons/Menu';
 
 export const Header = styled(Box)`
   &.MuiBox-root{
@@ -63,9 +62,7 @@ export const ContentRight = styled(Box)`
 export const ButtonStyled = styled(Button)`
   &.MuiButton-root{
     @media(max-width: 600px){
-      visibility: hidden;
-      width: 0;
-      height: 0;
+      display: none;
     }
     border-radius: 10px;
     text-transform: none;
@@ -77,11 +74,3 @@ export const ButtonStyled = styled(Button)`
     background: linear-gradient(90deg, rgba(255,41,41,1) 0%, rgba(195,33,33,1) 100%);
   }
 `
-
-export const IconButtonStyled = styled(MenuIcon)`
-  &.MuiSvgIcon-root{
-    color: #FFF;
-    font-size: 40px;
-    margin-right: 20px;
-  }
-`;

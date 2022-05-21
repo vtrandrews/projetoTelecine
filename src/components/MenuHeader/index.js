@@ -2,12 +2,9 @@ import React from 'react';
 import { useMediaQuery } from '@material-ui/core';
 import {
   ContentLeft, Header, HeaderContent, ButtonStyled,
-  ContentRight, IconButtonStyled
+  ContentRight
 } from './styles.modules';
-
-const abreModal = () => {
-  console.log('Abre modal');
-}
+import MenuDrawer from '../MenuDrawer';
 
 export function MenuHeader() {
   const matches = useMediaQuery("(max-width:905px)");
@@ -41,9 +38,7 @@ export function MenuHeader() {
           matches &&
           <>
             <ContentLeft>
-              <IconButtonStyled 
-                onClick={() => {abreModal()}}
-              />
+              <MenuDrawer />
               <img src="images/telecineLogo.svg" alt="TeleCine" width={"140px"} />
             </ContentLeft>
             <ContentRight>
