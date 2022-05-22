@@ -4,7 +4,6 @@ import { Box, Typography } from '@material-ui/core';
 export const Container = styled(Box)`
   &.MuiBox-root{
     @media (max-width: 1220px) {
-      //MOBILE
       display: block;
     }
     width: 100%;
@@ -19,7 +18,6 @@ export const Container = styled(Box)`
 export const TextBox = styled(Box)`
   &.MuiBox-root{
     @media (max-width: 1220px) {
-      //MOBILE
       width: 100%;
       height: 400px;
       left: auto;
@@ -38,13 +36,13 @@ export const TextBox = styled(Box)`
 export const TextArea = styled(Box)`
   &.MuiBox-root{
     @media (max-width: 1220px) {
-      //MOBILE
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       width: 100%;
       height: 400px;
+      padding: 0;
     }
     display: inline-block;
     align-items: center;
@@ -53,13 +51,26 @@ export const TextArea = styled(Box)`
     height: 500px;
     color: #FFF;
     padding: 30px 0px 0px 60px;
-  }	
+  }
+
+  .ajusta-texto{
+    @media (max-width: 1220px) {
+      //MOBILE
+      display: flex;
+    }
+    @media (max-width: 710px) {
+      width: 80%;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+  }
 
   .texto-fino{
     &.MuiTypography-root{
       @media (max-width: 1220px) {
-        //MOBILE
-        font-size: 36px;
+        font-size: 32px;
+        margin-right: 5px;
       }
       font-size: 54px;
       font-weight: 300;
@@ -71,8 +82,8 @@ export const TextArea = styled(Box)`
   .subtexto{
     &.MuiTypography-root{
       @media (max-width: 1220px) {
-        //MOBILE
-        font-size: 18px;
+        font-size: 24px;
+        margin-right: 3px;
       }
       font-size: 32px;
       font-weight: 500;
@@ -84,7 +95,9 @@ export const TextArea = styled(Box)`
   .subtexto-fino{
     &.MuiTypography-root{
       @media (max-width: 1220px) {
-        //MOBILE
+        font-size: 24px;
+        margin-right: 3px;
+        margin-top: 0;
       }
       margin-top: 20px;
       font-size: 32px;
@@ -95,10 +108,11 @@ export const TextArea = styled(Box)`
   }
 `;
 
-export const TypographySyled = styled(Typography)`
+export const TypographyStyled = styled(Typography)`
   &.MuiTypography-root{
     @media (max-width: 1220px) {
-      //MOBILE
+      font-size: 32px;
+      margin-right: 5px;
     }
     font-size: 54px;
     font-weight: 600;
@@ -125,7 +139,6 @@ export const ImgBox = styled(Box)`
 
   img{
     @media (max-width: 1220px) {
-      //MOBILE
       width: 100%;
       height: 440px;
       object-fit: cover;

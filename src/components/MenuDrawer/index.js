@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Container, BoxMenu, IconButtonStyled,
   MenuLateral, FundoDrawer, ButtonStyled,
-  LabelFechaDrawer, DividerStyled
+  LabelFechaDrawer
 } from './styles.modules';
 
 export function MenuDrawer() {

@@ -63,25 +63,25 @@ export const ButtonStyled = styled(Button)`
 export const MenuLateral = styled(Box)`
   &.MuiBox-root{
     display: flex;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 330px;
     height: 100%;
     background: #111111;
-    z-index: +2;
+    z-index: +4;
   }
 `;
 
 export const FundoDrawer = styled(Box)`
   &.MuiBox-root{
     display: flex;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: +1;
+    z-index: +3;
     background: #000;
     opacity: 0.6;
   }

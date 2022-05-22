@@ -2,7 +2,7 @@ import { useMediaQuery } from '@material-ui/core';
 import React from 'react';
 import {
   Container, TextBox, ImgBox, TextArea,
-  TypographySyled
+  TypographyStyled  
 } from './styles.modules';
 
 export function FirstSlide() {
@@ -10,7 +10,7 @@ export function FirstSlide() {
 
   return (
     <Container>
-      {
+      {//MOBILE
         matches ?
           <>
             <ImgBox>
@@ -18,37 +18,54 @@ export function FirstSlide() {
             </ImgBox>
             <TextBox>
               <TextArea>
-                <TypographySyled className='texto-fino'>
-                  MENOS TEMPO PROCURANDO, VOCÊ JÁ ACHOU BEM AQUI
-                </TypographySyled>
-                <TypographySyled className='texto-fino'>
-                  Perfil escolhido por um time de especialistas em recrutamento
-                </TypographySyled>
+                <div className='ajusta-texto'>
+                  <TypographyStyled className='texto-fino'>
+                    MENOS TEMPO
+                  </TypographyStyled>
+                  <TypographyStyled>
+                    PROCURANDO,
+                  </TypographyStyled>
+                  <TypographyStyled className='texto-fino'>
+                    VOCÊ JÁ ACHOU
+                  </TypographyStyled>
+                  <TypographyStyled>
+                    BEM AQUI
+                  </TypographyStyled>
+                </div>
+                <div className='ajusta-texto'>
+                  <TypographyStyled className='subtexto-fino'>
+                    Perfil escolhido por um time de
+                  </TypographyStyled>
+                  <TypographyStyled className='subtexto'>
+                    especialistas em recrutamento
+                  </TypographyStyled>
+                </div>
               </TextArea>
             </TextBox>
           </>
           :
+          //DESKTOP
           <>
             <TextBox>
               <TextArea>
-                <TypographySyled className='texto-fino'>
+                <TypographyStyled className='texto-fino'>
                   MENOS TEMPO
-                </TypographySyled>
-                <TypographySyled>
+                </TypographyStyled>
+                <TypographyStyled>
                   PROCURANDO,
-                </TypographySyled>
-                <TypographySyled className='texto-fino'>
+                </TypographyStyled>
+                <TypographyStyled className='texto-fino'>
                   VOCÊ JÁ ACHOU
-                </TypographySyled>
-                <TypographySyled>
+                </TypographyStyled>
+                <TypographyStyled>
                   BEM AQUI
-                </TypographySyled>
-                <TypographySyled className='subtexto-fino'>
+                </TypographyStyled>
+                <TypographyStyled className='subtexto-fino'>
                   Perfil escolhido por um time de
-                </TypographySyled>
-                <TypographySyled className='subtexto'>
+                </TypographyStyled>
+                <TypographyStyled className='subtexto'>
                   especialistas em recrutamento
-                </TypographySyled>
+                </TypographyStyled>
               </TextArea>
             </TextBox>
             <ImgBox>
