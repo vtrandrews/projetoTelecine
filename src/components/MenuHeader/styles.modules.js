@@ -57,6 +57,11 @@ export const ContentRight = styled(Box)`
     align-items: center;
     justify-content: right;
   }
+
+  a {
+    text-decoration: none;
+    color: #FFF;
+  }
 `;
 
 export const ButtonStyled = styled(Button)`
@@ -73,4 +78,5 @@ export const ButtonStyled = styled(Button)`
     background: rgb(255,41,41);
     background: linear-gradient(90deg, rgba(255,41,41,1) 0%, rgba(195,33,33,1) 100%);
   }
+
 `

@@ -16,11 +16,13 @@ export function MenuHeader() {
           !matches &&
           <>
             <ContentLeft>
-              <img src="images/telecineLogo.svg" alt="TeleCine" width={"140px"} />
+              <a href='/'>
+                <img src="images/telecineLogo.svg" alt="TeleCine" width={"140px"} />
+              </a>
               <ul>
-                <li><a href="#">QUEM SOU</a></li>
-                <li><a href="#">HABILIDADES</a></li>
-                <li><a href="#">PORQUE ME ESCOLHER</a></li>
+                <li><a href="/#section-one">QUEM SOU</a></li>
+                <li><a href="/#section-two">HABILIDADES</a></li>
+                <li><a href="/#section-three">PORQUE ME ESCOLHER</a></li>
               </ul>
             </ContentLeft>
             <ContentRight>
@@ -28,6 +30,8 @@ export function MenuHeader() {
                 variant="contained"
                 color="primary"
                 size="large"
+                href='https://www.linkedin.com/in/vitor-andrews-246524181/'
+                target="_blank"
               >
                 Contate Agora
               </ButtonStyled>
@@ -46,6 +50,8 @@ export function MenuHeader() {
                 variant="contained"
                 color="primary"
                 size="large"
+                href='https://www.linkedin.com/in/vitor-andrews-246524181/'
+                target="_blank"
               >
                 Contate Agora
               </ButtonStyled>

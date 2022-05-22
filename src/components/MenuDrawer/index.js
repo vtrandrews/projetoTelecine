@@ -24,13 +24,16 @@ export function MenuDrawer() {
             <LabelFechaDrawer onClick={fechaDrawer}>
               X
             </LabelFechaDrawer>
-            <ButtonStyled>
+            <ButtonStyled
+              href='https://www.linkedin.com/in/vitor-andrews-246524181/'
+              target="_blank"              
+            >
               Contate Agora
             </ButtonStyled>
             <ul>
-              <li><a href="#">QUEM SOU</a></li>
-              <li><a href="#">HABILIDADES</a></li>
-              <li><a href="#">PORQUE ME ESCOLHER</a></li>
+              <li><a href="#section-one" onClick={fechaDrawer}>QUEM SOU</a></li>
+              <li><a href="#section-two" onClick={fechaDrawer}>HABILIDADES</a></li>
+              <li><a href="#section-three" onClick={fechaDrawer}>PORQUE ME ESCOLHER</a></li>
             </ul>
           </BoxMenu>
         </MenuLateral>

@@ -15,6 +15,7 @@ export const Container = styled(Box)`
       //MOBILE
       width: 100%;
     }
+    margin-bottom: 50px;
   }
 
   .carousel-inner {
