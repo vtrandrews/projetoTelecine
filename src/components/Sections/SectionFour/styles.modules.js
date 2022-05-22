@@ -18,7 +18,6 @@ export const Content = styled(Box)`
     @media (max-width: 1220px) {
       border-radius: 0;
     }
-    border-radius: 25px;
     background-color: #111111;
     display: flex;
     align-items: center;
@@ -41,8 +40,6 @@ export const CentralBox = styled(Box)`
     flex-direction: column;
     width: 100%;
     height: 100%;
-    border: 1px solid #333333;
-    border-radius: 15px;
   }
 `;
 

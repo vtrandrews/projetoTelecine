@@ -2,7 +2,8 @@ import './App.css';
 import GlobalStyle from './css/globalStyles';
 import MenuHeader from './components/MenuHeader';
 import CarouselComponent from './components/Carousel';
-import { SectionOne, SectionTwo, SectionThree } from './components/Sections/index';
+import { SectionOne, SectionTwo, SectionThree, SectionFour } from './components/Sections/index';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+      <SectionFour />
+      <Footer />
     </div>
   );
 }

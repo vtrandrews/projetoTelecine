@@ -17,6 +17,7 @@ export const Content = styled(Box)`
   &.MuiBox-root{
     @media (max-width: 1220px) {
       flex-direction: column;
+      height: 100%;
     }
     display: flex;
     align-items: center;
@@ -42,7 +43,7 @@ export const RightBox = styled(Box)`
   &.MuiBox-root{
     @media (max-width: 1220px) {
       margin-top: 30px;
-      margin-bottom: 30px;
+      width: 65%;
     }
     display: inline-block;
     align-items: center;
@@ -51,23 +52,16 @@ export const RightBox = styled(Box)`
     height: 100%;
   }
 
-  .titulo{
+  .texto{
+    @media (max-width: 1220px) {
+      text-align: center;
+    }
     width: 100%;
-    min-height: 70px;
-    height: 20%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid #fff;
-  }
-
-  .sub-titulo{
-    width: 100%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 1px solid #fff;
+    text-align: left;
   }
 `;
 

@@ -1,13 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
  
 const GlobalStyle = createGlobalStyle`
-  html{
-    @media(max-width: 1440px){
-
-    }
-    @media(max-width: 375px){
-      
-    }
+  html, body{
+    overflow-x: hidden;
   }
   body {
     background-color: black;

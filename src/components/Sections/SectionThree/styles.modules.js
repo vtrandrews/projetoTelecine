@@ -18,12 +18,12 @@ export const Content = styled(Box)`
     @media (max-width: 1220px) {
     }
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: #fff;
     width: 1220px;
-    height: 500px;
+    height: 250px;
     margin-bottom: 50px;
-    border: 1px solid red;
   }
 `;

@@ -4,7 +4,7 @@ import {
   TextBox, TechBox, TechBoxItem
 } from './styles.modules';
 
-export function SectionTwo() {
+export function SectionFour() {
   return (
     <Container>
       <Content id='section-two'>
@@ -48,4 +48,4 @@ export function SectionTwo() {
   )
 }
 
-export default SectionTwo;
+export default SectionFour;
