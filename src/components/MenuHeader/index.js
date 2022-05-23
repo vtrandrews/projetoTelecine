@@ -43,7 +43,9 @@ export function MenuHeader() {
           <>
             <ContentLeft>
               <MenuDrawer />
-              <img src="images/telecineLogo.svg" alt="TeleCine" width={"140px"} />
+              <a href="/">
+                <img src="images/telecineLogo.svg" alt="TeleCine" width={"140px"} />
+              </a>
             </ContentLeft>
             <ContentRight>
               <ButtonStyled

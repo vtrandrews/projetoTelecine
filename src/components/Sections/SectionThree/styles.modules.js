@@ -16,6 +16,7 @@ export const Container = styled(Box)`
 export const Content = styled(Box)`
   &.MuiBox-root{
     @media (max-width: 1220px) {
+      width: 90%;
     }
     display: flex;
     flex-direction: column;

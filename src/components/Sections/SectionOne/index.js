@@ -16,14 +16,14 @@ export function SectionOne() {
         <RightBox>
           <div className='texto'>
             <p>
-              Me chamo Vitor Andrews, tenho 22 anos, sou programador <strong>Full Stack</strong>,
+              Me chamo Vitor Andrews, tenho 23 anos, nascido e criado na Zona Oeste do <strong>Rio de Janeiro</strong>, sou programador <strong>Full Stack</strong>,
               apaixonado por <strong>Front-End</strong>, amo o que faço e realmente trabalho porque gosto.
             </p>
             <p>
               Sou uma pessoa de fácil relacionamento interpessoal, me expresso muito bem,
-              tenho raciocínio lógico, sou organizado, pontual, sei ser liderado, possuo boa
-              apresentação e tenho interesse em cooperar para que a empresa alcance seus objetivos
-              e se torne cada vez mais competitiva.
+              tenho raciocínio lógico, sou organizado, pontual, sei ser liderado e também sei liderar,
+              possuo boa apresentação e tenho interesse em cooperar para que a empresa alcance seus
+              objetivos e se torne cada vez mais competitiva.
             </p>
           </div>
         </RightBox>

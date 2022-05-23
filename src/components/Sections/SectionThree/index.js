@@ -7,8 +7,11 @@ export function SectionThree() {
   return (
     <Container>
       <Content id='section-three'>
-        <h1>Tempo de Desenvolvimento</h1>
-        <h3>18h 46m 17s</h3>
+        <h1>Tempo de Desenvolvimento do Projeto</h1>
+        <br />
+        <h3>18h 54m 45s</h3>
+        <br />
+        <p>O projeto está responsivo para se adaptar a diversas dimensões de telas</p>
       </Content>
     </Container>
   )

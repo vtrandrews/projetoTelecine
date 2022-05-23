@@ -33,10 +33,10 @@ export const Content = styled(Box)`
   }
 
   h6{
-    width: 60%;
+    width: 75%;
   }
 
   p {
-    width: 60%;
+    width: 75%;
   }
 `;

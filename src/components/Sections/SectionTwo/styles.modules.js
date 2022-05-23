@@ -79,6 +79,9 @@ export const TechBox = styled(Box)`
 
 export const TechBoxItem = styled(Box)`
   &.MuiBox-root{
+    @media (max-width: 1220px) {
+      margin: 25px 10px;
+    }
     width: 100px;
     height: 100px;
     margin: 0px 20px 55px 20px;
