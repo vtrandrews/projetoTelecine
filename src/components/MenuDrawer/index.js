@@ -32,8 +32,8 @@ export function MenuDrawer() {
             </ButtonStyled>
             <ul>
               <li><a href="#section-one" onClick={fechaDrawer}>QUEM SOU</a></li>
-              <li><a href="#section-two" onClick={fechaDrawer}>HABILIDADES</a></li>
-              <li><a href="#section-three" onClick={fechaDrawer}>PORQUE ME ESCOLHER</a></li>
+              <li><a href="#section-two" onClick={fechaDrawer}>TECNOLOGIAS</a></li>
+              <li><a href="#section-four" onClick={fechaDrawer}>PORQUE ME ESCOLHER</a></li>
             </ul>
           </BoxMenu>
         </MenuLateral>

@@ -72,10 +72,12 @@ export const AvatarStyled = styled(Avatar)`
     transition: all 0.3s;
   }
 
-  :hover{
-    width: 380px;
-    height: 380px;
-    transition: all 0.5s;
+  &:hover{
+    @media (min-width: 700px) {
+      width: 380px;
+      height: 380px;
+      transition: all 0.5s;
+    }
   }
 
   img{
@@ -83,7 +85,9 @@ export const AvatarStyled = styled(Avatar)`
   }
 
   img:hover{
-    width: 380px;
-    transition: all 0.5s;
+    @media (min-width: 700px) {
+      width: 380px;
+      transition: all 0.5s;
+    }
   }
 `;

@@ -7,6 +7,7 @@ import {
 
 export function SecondSlide() {
   const matches = useMediaQuery("(max-width:1220px)");
+  const imageMatch = useMediaQuery("(max-width:600px)");
 
   return (
     <Container>
@@ -14,7 +15,15 @@ export function SecondSlide() {
         matches ?
           <>
             <ImgBox>
-              <img src="images/PoderosoChef_esticada.png" />
+            { imageMatch ?
+                <>
+                  <img src="images/PoderosoChef_quad.png" />
+                </>
+                :
+                <>
+                  <img src="images/PoderosoChef_esticada.png" />
+                </>
+              }
             </ImgBox>
             <TextBox>
               <TextArea>

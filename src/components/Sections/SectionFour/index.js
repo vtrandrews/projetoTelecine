@@ -7,38 +7,38 @@ import {
 export function SectionFour() {
   return (
     <Container>
-      <Content id='section-two'>
+      <Content id='section-four'>
         <CentralBox>
           <TextBox>
-            <h1>Tecnologias utilizadas para desenvolver este projeto</h1>
+            <h1>Outras tecnologias que possuo experiência</h1>
           </TextBox>
           <TechBox>
             <div className='alinha-techs'>
               <TechBoxItem>
-                <img src='https://cdn.iconscout.com/icon/free/png-256/react-1-282599.png' alt='react' />
-                <p>ReactJS</p>
+                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png' alt='Angular' />
+                <p>AngularJS</p>
               </TechBoxItem>
               <TechBoxItem>
-                <img src='https://cdn.worldvectorlogo.com/logos/npm-square-red-1.svg' alt='npm' />
-                <p>NPM</p>
+                <img src='https://seeklogo.com/images/Y/yarn-logo-F5E7A65FA2-seeklogo.com.png' alt='yarn' />
+                <p>Yarn</p>
               </TechBoxItem>
               <TechBoxItem>
-                <img src='https://avatars.githubusercontent.com/u/20658825?s=200&v=4' alt='Styled-Components' />
-                <p>Styled-Components</p>
+                <img src='https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png' alt='SASS' />
+                <p>SASS</p>
               </TechBoxItem>
             </div>
             <div className='alinha-techs'>
               <TechBoxItem>
-                <img src='https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png' alt='GitHub' />
-                <p>Git</p>
+                <img src='https://res.cloudinary.com/hevo/images/w_225,h_225,c_fill/f_auto,q_auto/v1634116436/hevo-learn/GitLab-logo/GitLab-logo.png?_i=AA' alt='GitLab' />
+                <p>GitLab</p>
               </TechBoxItem>
               <TechBoxItem>
-                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png' alt='JavaScript' />
-                <p>JavaScript</p>
+                <img src='https://cdn.worldvectorlogo.com/logos/typescript-2.svg' alt='TypeScript' />
+                <p>TypeScript</p>
               </TechBoxItem>
               <TechBoxItem>
-                <img src='https://v4.mui.com/static/logo.png' alt='Material UI' />
-                <p>Material UI</p>
+                <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXxkaq7mOTOVYdCtsLufQn2J29U1nf2V505Q&usqp=CAU' alt='Bootstrap' />
+                <p>Bootstrap</p>
               </TechBoxItem>
             </div>
           </TechBox>

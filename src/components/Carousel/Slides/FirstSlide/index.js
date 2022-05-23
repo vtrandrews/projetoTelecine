@@ -7,6 +7,7 @@ import {
 
 export function FirstSlide() {
   const matches = useMediaQuery("(max-width:1220px)");
+  const imageMatch = useMediaQuery("(max-width:600px)");
 
   return (
     <Container>
@@ -14,7 +15,15 @@ export function FirstSlide() {
         matches ?
           <>
             <ImgBox>
-              <img src="images/Toretto_esticada.png" />
+              { imageMatch ?
+                <>
+                  <img src="images/Toretto_quad.png" />
+                </>
+                :
+                <>
+                  <img src="images/Toretto_esticada.png" />
+                </>
+              }
             </ImgBox>
             <TextBox>
               <TextArea>

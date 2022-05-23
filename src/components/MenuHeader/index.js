@@ -21,8 +21,8 @@ export function MenuHeader() {
               </a>
               <ul>
                 <li><a href="/#section-one">QUEM SOU</a></li>
-                <li><a href="/#section-two">HABILIDADES</a></li>
-                <li><a href="/#section-three">PORQUE ME ESCOLHER</a></li>
+                <li><a href="/#section-two">TECNOLOGIAS</a></li>
+                <li><a href="/#section-five">PORQUE ME ESCOLHER</a></li>
               </ul>
             </ContentLeft>
             <ContentRight>

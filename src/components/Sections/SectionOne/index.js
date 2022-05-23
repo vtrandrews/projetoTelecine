@@ -26,10 +26,6 @@ export function SectionOne() {
               e se torne cada vez mais competitiva.
             </p>
           </div>
-          {/* " Mais do que de máquinas, precisamos de humanidade.
-          Mais do que de inteligência, precisamos de afeição e doçura. Sem essas virtudes, a vida será de violência e tudo será perdido.”
-
-          (Charles Chaplin) */}
         </RightBox>
       </Content>
     </Container>

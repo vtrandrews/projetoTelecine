@@ -7,6 +7,7 @@ import {
 
 export function ThirdSlide() {
   const matches = useMediaQuery("(max-width:1220px)");
+  const imageMatch = useMediaQuery("(max-width:600px)");
 
   return (
     <Container>
@@ -14,7 +15,15 @@ export function ThirdSlide() {
         matches ?
           <>
             <ImgBox>
-              <img src="images/007_esticada.png" />
+            { imageMatch ?
+                <>
+                  <img src="images/007_quad.png" />
+                </>
+                :
+                <>
+                  <img src="images/007_esticada.png" />
+                </>
+              }
             </ImgBox>
             <TextBox>
               <TextArea>

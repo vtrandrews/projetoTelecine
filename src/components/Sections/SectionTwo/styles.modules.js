@@ -34,6 +34,7 @@ export const Content = styled(Box)`
 export const CentralBox = styled(Box)`
   &.MuiBox-root{
     @media (max-width: 1220px) {
+      border: none;
     }
     display: flex;
     align-items: flex-start;
@@ -83,6 +84,14 @@ export const TechBoxItem = styled(Box)`
     margin: 0px 20px 55px 20px;
     background-color: #333333;
     border-radius: 10px;
+    transition: all 0.3s;
+  }
+
+  &:hover{
+    @media (min-width: 700px) {
+      margin-top: -15px;
+      transition: all 0.5s;
+    }
   }
 
   img {
