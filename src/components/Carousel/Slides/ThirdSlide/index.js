@@ -17,11 +17,11 @@ export function ThirdSlide() {
             <ImgBox>
             { imageMatch ?
                 <>
-                  <img src="images/007_quad.png" />
+                  <img src="images/007_quad.png" alt='slide-3'/>
                 </>
                 :
                 <>
-                  <img src="images/007_esticada.png" />
+                  <img src="images/007_esticada.png" alt='slide-3'/>
                 </>
               }
             </ImgBox>
@@ -66,7 +66,7 @@ export function ThirdSlide() {
               </TextArea>
             </TextBox>
             <ImgBox>
-              <img src="images/007_quad.png" />
+              <img src="images/007_quad.png" alt='slide-3' />
             </ImgBox>
           </>
       }

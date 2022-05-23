@@ -17,11 +17,11 @@ export function FirstSlide() {
             <ImgBox>
               { imageMatch ?
                 <>
-                  <img src="images/Toretto_quad.png" />
+                  <img src="images/Toretto_quad.png" alt='slide-1' />
                 </>
                 :
                 <>
-                  <img src="images/Toretto_esticada.png" />
+                  <img src="images/Toretto_esticada.png" alt='slide-1' />
                 </>
               }
             </ImgBox>
@@ -78,7 +78,7 @@ export function FirstSlide() {
               </TextArea>
             </TextBox>
             <ImgBox>
-              <img src="images/Toretto_quad.png" />
+              <img src="images/Toretto_quad.png" alt='slide-1' />
             </ImgBox>
           </>
       }

@@ -17,11 +17,11 @@ export function SecondSlide() {
             <ImgBox>
             { imageMatch ?
                 <>
-                  <img src="images/PoderosoChef_quad.png" />
+                  <img src="images/PoderosoChef_quad.png" alt='slide-2' />
                 </>
                 :
                 <>
-                  <img src="images/PoderosoChef_esticada.png" />
+                  <img src="images/PoderosoChef_esticada.png" alt='slide-2' />
                 </>
               }
             </ImgBox>
@@ -72,7 +72,7 @@ export function SecondSlide() {
               </TextArea>
             </TextBox>
             <ImgBox>
-              <img src="images/PoderosoChef_quad.png" />
+              <img src="images/PoderosoChef_quad.png" alt='slide-2' />
             </ImgBox>
           </>
       }
